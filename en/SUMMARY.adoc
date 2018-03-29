@@ -1,0 +1,58 @@
+== Architext 
+* link:README.adoc[Introduction]
+
+== System design
+. link:sys/non_func_req/README.adoc[Non-functional requirement]
+.. link:sys/non_func_req/availability.adoc[Availability]
+.. link:sys/non_func_req/scalability.adoc[Scalability]
+.. link:sys/non_func_req/reliability.adoc[Reliability]
+.. link:sys/non_func_req/security.adoc[Security]
+.. link:sys/non_func_req/capacity.adoc[Capacity]
+.. link:sys/non_func_req/latency.adoc[Latency]
+.. link:sys/non_func_req/expandability.adoc[Expandability]
+.. link:sys/non_func_req/maintenancability.adoc[Maintenancability]
+.. link:sys/non_func_req/operationability.adoc[Operationability]
+.. link:sys/non_func_req/sustainability.adoc[Sustainability]
+. link:sys/infra/README.adoc[Infrastracture]
+. link:sys/provision/README.adoc[Provisioning]
+. link:sys/monitor/README.adoc[Monitoring]
+. link:(sys/cicd/README.adoc[CICD workflow]
+
+== Web application back-end
+. link:web_back/division/README.adoc[Division]
+. link:web_back/app/README.adoc[Application / Presentation]
+. link:web_back/domain/README.adoc[Domain / Business]
+. link:web_back/infra/README.adoc[Infra / DB]
+. link:web_back/api/README.adoc[API]
+.. link:web_back/api/soap/README.adoc[SOAP]
+.. link:web_back/api/rest/README.adoc[REST]
+.. link:web_back/api/graphql/README.adoc[GraphQL]
+. link:web_back/security/README.adoc[Security]
+. link:web_back/log/README.adoc[Log]
+
+== Web application front-end
+
+== Client application
+
+== Data processing
+. link:data/late_freq/README.adoc[Latency]
+. link:data/batch/README.adoc[Batch job]
+. link:data/queue/README.adoc[Queue / Buffer]
+
+== Data store
+. link:ds/sql/README.adoc[SQL (RDB)]
+. link:ds/nosql/README.adoc[NoSQL]
+. link:ds/newsql/README.adoc[NewSQL]
+. link:ds/dfs/README.adoc[DFS]
+
+== Appendix
+. link:appendix/topic/README.adoc[Topic]
+..  link:appendix/topic/coding_style/README.adoc[Coding style]
+..  link:appendix/topic/diagram/README.adoc[Diagram]
+. link:appendix/reference/README.adoc[Reference]
+
+== Contribution
+. link:contribution/README.adoc[Contribution]
+.. link:contribution/markup/README.adoc[Markup]
+.. link:contribution/diagram/README.adoc[Diagram]
+
