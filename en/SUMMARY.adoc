@@ -1,22 +1,20 @@
-== Architext 
+== Architext
 * link:README.adoc[Introduction]
 
 == System design
 . link:sys/non_func_req/README.adoc[Non-functional requirement]
-.. link:sys/non_func_req/availability.adoc[Availability]
-.. link:sys/non_func_req/scalability.adoc[Scalability]
-.. link:sys/non_func_req/reliability.adoc[Reliability]
-.. link:sys/non_func_req/security.adoc[Security]
-.. link:sys/non_func_req/capacity.adoc[Capacity]
-.. link:sys/non_func_req/latency.adoc[Latency]
-.. link:sys/non_func_req/expandability.adoc[Expandability]
-.. link:sys/non_func_req/maintenancability.adoc[Maintenancability]
-.. link:sys/non_func_req/operationability.adoc[Operationability]
-.. link:sys/non_func_req/sustainability.adoc[Sustainability]
-. link:sys/infra/README.adoc[Infrastracture]
-. link:sys/provision/README.adoc[Provisioning]
-. link:sys/monitor/README.adoc[Monitoring]
-. link:(sys/cicd/README.adoc[CICD workflow]
+.. link:sys/non_func_req/README.adoc#agility[Agility]
+.. link:sys/non_func_req/README.adoc#availability[Availability]
+.. link:sys/non_func_req/README.adoc#capacity[Capacity]
+.. link:sys/non_func_req/README.adoc#compatibility[Compatibility]
+.. link:sys/non_func_req/README.adoc#expandability[Expandability]
+.. link:sys/non_func_req/README.adoc#flexibility[Flexibility]
+.. link:sys/non_func_req/README.adoc#maintenability[Maintenability]
+.. link:sys/non_func_req/README.adoc#operationality[Operationality]
+.. link:sys/non_func_req/README.adoc#reliability[Reliability]
+.. link:sys/non_func_req/README.adoc#scalability[Scalability]
+.. link:sys/non_func_req/README.adoc#sustainability[Sustainability]
+.. link:sys/non_func_req/README.adoc#velocity[Velocity]
 
 == Web application back-end
 . link:web_back/division/README.adoc[Division]
@@ -53,6 +51,8 @@
 
 == Contribution
 . link:contribution/README.adoc[Contribution]
+.. link:contribution/structure/README.adoc[Structure]
+.. link:contribution/setup/README.adoc[Set up]
 .. link:contribution/markup/README.adoc[Markup]
 .. link:contribution/diagram/README.adoc[Diagram]
 
