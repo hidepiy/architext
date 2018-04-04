@@ -1,0 +1,39 @@
+= Setup
+
+This book is build with Gitbook so we highly recommend to use it even though you just edit each document.
+Alternatively Gitbook also provides Saas and desktop editors. Check the detail at official guidance.
+
+* GitBook (writing command line) Documentation: https://toolchain.gitbook.com/
+* GitBook.com (online platform for writing and hosting document): https://help.gitbook.com/
+* Editor (desktop application): https://www.gitbook.com/editor/
+
+=== Requirement
+* OS: Windows, Linux, Unix, or Mac OS X
+* NodeJS (v4.0.0 and above is recommended)
+
+=== Install NPM
+Follow the Node.js official installation guide which comes with npm.
+https://nodejs.org/en/
+
+=== Install GitBook
+ $ npm --version
+ 5.7.1
+ $ npm install -g gitbook-cli
+ $ gitbook --version
+ CLI version: 2.3.2
+ GitBook version: 3.2.3
+ $ gitbook help
+ ...
+
+=== Checkout architext repository
+ $ git clone -b develop https://github.com/hidepiy/architext.git
+
+=== Install plugin used in architext
+ $ gitbook install
+
+=== Serve the book as a website for local testing
+ $ gitbook serve
+
+Access here with your browser: link:http://localhost:4000[http://localhost:4000]
+
+

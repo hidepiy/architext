@@ -1,0 +1,29 @@
+= Structure
+
+== Overview
+
+== Directory
+....
+architext
+├── LANGS.adoc      <- Define supported languages
+├── _book           <- Built static files (HTML, CSS, JS,...)
+│   ├── en              <- Content HTML files for English
+│   ├── gitbook         <- Gitbook related files for design and functions
+│   ├── index.html
+│   └── search_index.json
+├── book.json       <- Configuration of gitbook
+├── en              <- Directory for English
+│   ├── README.adoc     <- Preface / Introduction for the book
+│   ├── SUMMARY.adoc    <- Table of Contents
+│   ├── sys             <- Each chapter directory
+│   │   ├── monitor
+│   │   │   └── README.adoc
+│   │   ├── non_func_req
+│   │   │   └── README.adoc
+│   │   └── ...
+│   └── ...
+└── node_modules    <- installed NodeJS modules defined in book.json
+    ├── gitbook-plugin-...
+    └── ...
+....
+

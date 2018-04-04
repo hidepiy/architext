@@ -1,0 +1,80 @@
+= Non-functional requirement
+
+When it comes to system design, there are various types of non-functional requirement we need to fulfill.
+Some requirements rely on both system and application level design and implementation.
+If we apply *_bad_* design in system level, it would become quite costly or impossible to adjust in application level.
+
+The difficulty is, non-functional requirements tends to vague while we design a system, and would become strict align with increase of system usage.
+So we need to foresee certain period of system usage expansion, break down it into requirements, then come up with proper system design.
+
+Here we list up major concepts and ideas which we can use for fulfilling requirents.
+Actually each concept is not independent so it might be better to group it or apply some layers to it.
+And there are various *_-ity_* which only provides abstract image or doubt on its existence.
+
+[[agility]]Agility::
+Can we make incremental small change into the system?
+There is no perfect system, and *_good_* architecture will change aligh with technical innovation and available resources.
+If agility is high, we can keep improving the system and use it for longer term.
+We may be able to increase agility by breaking down huge monolithic system into role base components.
+
+[[availability]]Availability::
+Can we use the system 24/7?
+Every system has risk of fault or donwtime in which we cannot use the system.
+Risk might be each components, server level or datacenter, country level.
+Based on downtime impact and countermeasure cost, we need to implement certain level of robustness into the system.
+We may be able to increase availability by duplicating (active-active, active-standby) critical lines such as network, swich, load balancer, etc... and using data replication and backup.
+Downtime impact derives from those kind of things.
+Scope of usage:::
+Company internal system has limited scope of usage, user (employee) might be able to wait recovery with patience, so has limited impact.
+Importance of transaction:::
+Payment or medical treatment tends to have more importance than entertainment contents reference.
+Number of user:::
+Even though the system usecase is not critical for each user, gross impact would be gigantic if there are millions or billions of users.
+
+[[capacity]]Capacity::
+Can we manage 1TB of user behavior data while handling 100 thousand request per second?
+Practically our system resource is limited so the system capacity is limited as well.
+So we need to take capacity planning and provisioning in which we design system and prepare system resources align with potential system usage expansion.
+System capacity as a whole is defined by component which has minimum capacity.
+So it's important to detect bottleneck who caps entire system for improving capacity within actual project timeline.
+
+[[compatibility]]Compatibility::
+Can we apply that system without changing other existing asset?
+System has interface (input/output) and behavior, and it communicate with others which can be other system or user.
+If we apply completely new interface for the system, it may require huge cost of related system migration or user leraning.
+By supporting previous system's interface or widely used interface, we can make system acceptable by others.
+
+[[expandability]]Expandability::
+Can we support another market with minimum effort?
+Launch of the system is not end but just a start of new service or activity.
+So it'll require additinal feature or functional change continuously while we expand it into another market or area.
+We can have high expandability by keeping proper separation about language/timezone related module, design - logic, data source, and so on.
+
+[[flexibility]]Flexibility::
+Can we keep catching up with external change?
+The system will face to various type of external factor change.
+That can be business situation, regulations, usecases, adopted tools (DB, middleware, language), dependent systems, etc...
+By applying pluggable component structure, we might be possible to cope with those change without affecting entire system.
+
+[[maintenability]]Maintenability::
+hogehoge
+
+[[operationality]]Operationality::
+ii
+
+[[reliability]]Reliability::
+ii
+
+[[scalability]]Scalability::
+hh
+
+[[security]]Security::
+hi
+
+[[sustainability]]Sustainability::
+hoef
+
+[[velocity]]Velocity::
+hihin
+
+

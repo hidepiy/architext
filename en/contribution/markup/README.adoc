@@ -1,0 +1,7 @@
+= Markup: Asciidoc
+
+We're using AsciiDoc as our default markup language.
+Technically we can also use Markdown file with ".md" extention (ex. README.md) but let's standardize with Asciidoc for our convenience.
+
+About Asciidoc syntax, you can refer to https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/[AsciiDoc Syntax Quick Reference].
+
