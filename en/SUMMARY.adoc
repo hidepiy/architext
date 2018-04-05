@@ -1,7 +1,7 @@
 == Architext
 * link:README.adoc[Introduction]
 
-== System design
+== System
 . link:sys/non_func_req/README.adoc[Non-functional requirement]
 .. link:sys/non_func_req/README.adoc#agility[Agility]
 .. link:sys/non_func_req/README.adoc#availability[Availability]
@@ -15,9 +15,13 @@
 .. link:sys/non_func_req/README.adoc#scalability[Scalability]
 .. link:sys/non_func_req/README.adoc#sustainability[Sustainability]
 .. link:sys/non_func_req/README.adoc#velocity[Velocity]
+. link:sys/infra/README.adoc[Infrastracture]
+. link:sys/provision/README.adoc[Provisioning]
+. link:sys/monitor/README.adoc[Monitoring]
+. link:(sys/cicd/README.adoc[CICD workflow])
 
 == Web application back-end
-. link:web_back/division/README.adoc[Division]
+. link:web_back/division/README.adoc[Division (layer and component)]
 . link:web_back/app/README.adoc[Application / Presentation]
 . link:web_back/domain/README.adoc[Domain / Business]
 . link:web_back/infra/README.adoc[Infra / DB]

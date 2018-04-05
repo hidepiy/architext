@@ -1,0 +1,15 @@
+
+# Output of documentation
+_book
+*.epub
+*.mobi
+*.pdf
+
+# Dependency directory
+/node_modules
+
+# management files
+*.swp
+.DS_Store
+Thumbs.db
+
