@@ -1,3 +1,15 @@
 {
-  "plugins": ["expandable-chapters-interactive"]
+  "plugins": [
+    "expandable-chapters-interactive"
+  ],
+  "pluginsConfig": {
+    "plantuml-cloud-languages": {
+      "port": "80",
+      "protocol": "http",
+      "language": "asciidoc",
+      "path": "/png/",
+      "format": "png",
+      "blockRegex_back": "^\\[plantuml\\]\n....((.*\n)+?)?....$"
+    }
+  }
 }

@@ -1,10 +1,17 @@
 = Diagram
 
-== Type
-
 == Tool
-http://www.blackwatchers.net/entry/the-icon-sets-of-system-and-network +
-https://cloudcraft.co/pricing +
-https://www.gliffy.com/pricing +
-https://support.draw.io/https://www.lucidchart.com/ +
+mermaid.js +
+https://mermaidjs.github.io/ +
+https://mermaidjs.github.io/mermaid-live-editor/ +
+
+PlantUML +
+http://plantuml.com/ +
+
+
+http://www.blackwatchers.net/entry/the-icon-sets-of-system-and-network
+https://cloudcraft.co/pricing
+https://www.gliffy.com/pricing
+https://support.draw.io/https://www.lucidchart.com/
+
 

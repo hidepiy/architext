@@ -8,9 +8,9 @@ We hope it'll become handy reference of system architecture design for tech lead
 Here we show the rough structure and chapters of Architext.
 We're trying to keep it straightforward as much as possible though it's almost impossible to 100% handle overwrap, duplication, interdependency, or fragmentation
 
-TODO: add diagram
+image::book_overview.png[]
 
-Chapter 1: System Design:: mimimi
+Chapter 1: System:: mimimi
 Chapter 2: Web Application bach-end:: mimimi
 Chapter 3: Web Application front-end:: mimimi
 Chapter 4: Client Application:: hihihi
